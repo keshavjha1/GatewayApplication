@@ -1,0 +1,25 @@
+{
+  "applications": ["Gateway", "Devices"],
+  "changelogDate": "20221216094911",
+  "clientRootFolder": "Devices",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "b",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Devices",
+  "name": "B",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "a",
+      "otherEntityRelationshipName": "b",
+      "relationshipName": "a",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}
