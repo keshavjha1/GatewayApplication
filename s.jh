@@ -1,0 +1,47 @@
+
+application {
+  config {
+    baseName Gateway,
+    applicationType gateway,
+    packageName com.keshav,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+    clientFramework react
+  }
+  entities *
+}
+
+application {
+  config {
+    baseName Devices,
+    applicationType microservice,
+    packageName com.keshav,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+  }
+  entities A, B
+}
+
+application {
+  config {
+    baseName Reports,
+    applicationType microservice,
+    packageName com.keshav,
+    authenticationType jwt,
+    prodDatabaseType mysql,
+  }
+  entities C
+}
+
+entity A {}
+
+entity B {}
+
+entity C {}
+
+entity D {}
+
+relationship OneToMany {
+  A to B
+}
+    
