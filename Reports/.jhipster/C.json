@@ -1,0 +1,18 @@
+{
+  "applications": ["Gateway", "Reports"],
+  "changelogDate": "20221216094811",
+  "clientRootFolder": "Reports",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "c",
+  "fields": [],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "Reports",
+  "name": "C",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [],
+  "service": "no"
+}
